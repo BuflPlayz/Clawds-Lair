@@ -4,12 +4,22 @@ A small macOS app (window + menu bar) for switching the Claude desktop app betwe
 
 > Clawd's Lair is an unofficial, community-made tool. It is not affiliated with, endorsed by, or supported by Anthropic. "Claude" is a trademark of Anthropic.
 
+<p align="center">
+  <img src="docs/main-window.png" width="620" alt="The Clawd's Lair window: an activity calendar and a card for each account with its tokens, plan usage and models">
+</p>
+
 ## Features
 
 - **Switch accounts instantly.** Keep several Claude accounts signed in and swap between them from the window, the menu bar, or a global hotkey.
 - **Per-account stats.** Tokens, models, plan usage and an activity calendar for each account, all read from files already on your Mac.
 - **Lives in the menu bar.** Opens at login and stays out of the Dock unless a window is open.
 - **Safe by design.** Claude is always asked to quit normally, swaps are rolled back if anything fails, and removed accounts go to the Trash.
+
+<p align="center">
+  <img src="docs/quick-switcher.png" width="312" alt="The quick switcher: hold Option and press Tab to pick an account">
+  <br>
+  <em>Hold Option and press Tab to pick an account from anywhere.</em>
+</p>
 
 ## Requirements
 
